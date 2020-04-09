@@ -7,12 +7,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Layouts",
-      darkTheme: ThemeData(primaryColor: Colors.purple),
+      //darkTheme: ThemeData(primaryColor: Colors.purple),
       theme: ThemeData(
         brightness: Brightness.dark,
         primaryColor: Colors.teal,
         accentColor: Colors.grey,
-        
+        textTheme: Typography.whiteMountainView
       ),
       home: Scaffold(
         appBar: AppBar(
